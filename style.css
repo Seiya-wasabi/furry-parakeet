@@ -1,10 +1,11 @@
 * {
-  margin: 0 50px;
+  margin: 0 ;
   padding: 0;
 }
 
 body {
   width: 960px;
+  margin: auto;
 }
 
 .list {
@@ -21,6 +22,7 @@ body {
 
 }
 p {
+  list-style: none;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -32,10 +34,19 @@ p {
 
 .main {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 960px;
 }
 
 .box {
   width: 30%;
   height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
   background-color: orange;
+}
+
+.box:nth-child(3,6,9) {
+  margin-right: 0;
 }
