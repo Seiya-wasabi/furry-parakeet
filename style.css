@@ -1,0 +1,41 @@
+* {
+  margin: 0 50px;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+}
+
+.list {
+  height: 60px;
+  width: 960px;
+}
+
+.list:nth-child(odd) {
+  background-color: silver;
+}
+
+.list:nth-child(1) {
+  margin-top: 50px;
+
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.list:nth-child(7) {
+  margin-bottom: 50px;
+}
+
+.main {
+  display: flex;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
